@@ -1,0 +1,52 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+#Installation de spotify
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+echo deb http://repository.spotify.com stable non-free |\
+  sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+
+sudo apt-get install spotify-client
+
+# Installation des dependences :
+# - m4
+# - git
+# - curl
+# - wget
+# - coreutils (pour la coloration) (<- inutile)
+sudo apt-get install m4 git curl wget coreutils
+
+# Installation du ZSH + Oh My Zsh :
+
+sudo apt-get install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+zsh (théoriqument pas nécessiare)
+
+#Installation des basiques :
+# - emacs
+# - python
+# - ocaml
+# - opam (dependence m4)
+# - lrwrap (pour les trucs jolis)
+# -
+
+sudo apt-get install ocaml opam
+opam init
+opam install merlin
+opam install tuareg
+opam install caml-mode
+
+
+sudo apt-get install emacs
+
+
+#Installation de pyenv + pyenvvirtualenv
+
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+exec "$SHELL"
+
+# Installer hyper
+# Installer pyzo (bonne chance! :)

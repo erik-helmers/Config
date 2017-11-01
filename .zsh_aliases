@@ -1,0 +1,24 @@
+# If using coreutils
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias l='ls -lh'
+alias ll='ls -lh'
+alias lll='ls -alh'
+alias la='ls -ldh .*'
+alias lt='ls -lth'
+
+alias rm='rm -i'
+alias tra='trash-put'
+alias ocaml='rlwrap -pMagenta ocaml'
+
+alias git='LANG=en_US git'
+
+export LESS="-RFX"
+
+#alias ec='emacsclient -c -q'
+alias ec='emacsclient -q'
+alias ecn='emacsclient -n -q'
+alias ecc='emacsclient -c -n -q'
