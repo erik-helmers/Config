@@ -15,7 +15,7 @@ sudo apt-get install spotify-client
 # - curl
 # - wget
 # - coreutils (pour la coloration) (<- inutile)
-sudo apt-get install m4 git curl wget coreutils
+sudo apt-get install m4 git curl wget coreutils rlwrap
 
 # Installation du ZSH + Oh My Zsh :
 
@@ -40,6 +40,7 @@ opam install caml-mode
 
 
 sudo apt-get install emacs
+https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Medium.ttf
 
 
 #Installation de pyenv + pyenvvirtualenv
@@ -49,4 +50,5 @@ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/py
 exec "$SHELL"
 
 # Installer hyper
+https://github.com/zeit/hyper/releases
 # Installer pyzo (bonne chance! :)
