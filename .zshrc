@@ -104,7 +104,7 @@ ENABLE_CORRECTION="true"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # OPAM configuration
-. /home/erikh/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+. /home/erik-helmers/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
 # See .ZSHENV for Pyenv config
 eval "$(pyenv init -)"
