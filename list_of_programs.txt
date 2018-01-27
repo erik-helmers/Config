@@ -46,6 +46,9 @@ https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Medium.ttf
 #Installation de pyenv + pyenvvirtualenv
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 exec "$SHELL"
 
