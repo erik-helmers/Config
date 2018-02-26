@@ -32,15 +32,17 @@ zsh (théoriqument pas nécessiare)
 # - lrwrap (pour les trucs jolis)
 # -
 
+
+sudo apt-get install emacs
+https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Medium.ttf
+
+
 sudo apt-get install ocaml opam
 opam init
 opam install merlin
 opam install tuareg
 opam install caml-mode
-
-
-sudo apt-get install emacs
-https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-Medium.ttf
+opam install ocp-indent
 
 
 #Installation de pyenv + pyenvvirtualenv
