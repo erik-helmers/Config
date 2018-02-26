@@ -216,7 +216,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-    plugins: ["hyperline", "hypercwd", "hyperterm-paste", "hyper-material-box"],
+    plugins:  ["hypercwd", "hyperterm-paste", "hyper-material-box"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

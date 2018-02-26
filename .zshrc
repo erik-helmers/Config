@@ -22,11 +22,12 @@ zstyle ':completion::complete:*' use-cache 1
 
 PATH=$HOME/.local/taskgrader/path:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:$PATH
 
-ZSH_THEME=mycustomtheme
+ZSH_THEME=robbyrussell
 
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh_aliases
+source ~/.zshenv
 # source ~/.zsh_prompt
 
 
