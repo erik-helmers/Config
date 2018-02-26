@@ -1,0 +1,462 @@
+((("l" .
+   [1])
+  ("current" .
+   [1 0 0 0 0 0 0])
+  ("indexs" .
+   [1 0 0 0 0 0])
+  ("longueur" .
+   [1 0 0 0 0 0 0 0])
+  ("b" .
+   [1])
+  ("factoriser" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("nbpremiers" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("nb_premiers" .
+   [2 0 1 0 0 0 0 0 0 0 0])
+  ("criblage" .
+   [0 0 0 0 0 1 0 1])
+  ("table" .
+   [4 0 0 0 0])
+  ("resultat" .
+   [1 0 0 0 0 0 0 0])
+  ("durete" .
+   [0 0 0 0 0 1])
+  ("diviseurs" .
+   [1 0 0 0 0 0 0 0 0])
+  ("abs" .
+   [1 0 0])
+  ("upto" .
+   [6 0 0 0])
+  ("ctrl" .
+   [8 0 0 0])
+  ("KI" .
+   [9 0])
+  ("KeyIdentifer" .
+   [0 1 0 0 0 0 0 0 0 0 0 0])
+  ("shell" .
+   [1 0 0 0 0])
+  ("proc" .
+   [1 0 0 0])
+  ("close" .
+   [1 0 0 0 0])
+  ("writelines" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("f" .
+   [2])
+  ("communicate" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("wait" .
+   [1 0 0 0])
+  ("PIPE" .
+   [1 0 0 0])
+  ("Popen" .
+   [1 0 0 0 0])
+  ("call" .
+   [1 0 0 0])
+  ("uptime" .
+   [1 0 0 0 0 0])
+  ("sb" .
+   [4 0])
+  ("FILE_PATH" .
+   [0 0 0 0 0 0 0 0 2])
+  ("subprocess" .
+   [0 1 1 0 0 1 0 0 0 0])
+  ("sub_wrapper" .
+   [2 0 0 0 1 1 0 0 0 0 0])
+  ("getCallerName" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("displayer" .
+   [5 0 0 0 0 0 0 0 0])
+  ("output" .
+   [6 0 0 0 0 0])
+  ("display" .
+   [3 0 0 0 0 0 0])
+  ("lvl" .
+   [2 0 0])
+  ("func" .
+   [5 0 0 0])
+  ("wcolor" .
+   [2 0 0 0 0 0])
+  ("origin" .
+   [5 0 0 0 0 0])
+  ("mess" .
+   [4 0 0 0])
+  ("wrapper" .
+   [2 0 0 0 0 0 0])
+  ("COLORS" .
+   [1 0 0 0 0 0])
+  ("args" .
+   [2 0 0 0])
+  ("BaseWidgets" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("DEFAULT_MENU_BAR" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("DEFAULT_BUFFER" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("action" .
+   [2 0 0 0 0 0])
+  ("QAction" .
+   [1 0 0 0 0 0 0])
+  ("MENUBAR_ACTION_TYPE" .
+   [0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("newMenu" .
+   [0 0 0 0 0 0 2])
+  ("maddToMenu" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("QMenu" .
+   [1 0 0 0 0])
+  ("MENUBAR_MENU_TYPE" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("t" .
+   [3])
+  ("menubarlist" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("menubar" .
+   [4 0 0 0 1 0 1])
+  ("n" .
+   [26])
+  ("addMenuBar" .
+   [2 0 0 0 0 0 0 0 0 1])
+  ("checker" .
+   [2 0 0 0 0 0 0])
+  ("child" .
+   [10 0 0 0 0])
+  ("aux" .
+   [2 0 0])
+  ("menu" .
+   [18 0 0 0])
+  ("a" .
+   [1])
+  ("name" .
+   [11 0 0 0])
+  ("iaction" .
+   [1 0 0 0 0 0 2])
+  ("register_receiver_to_event" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("register_" .
+   [0 0 0 0 0 0 0 0 1])
+  ("create_event" .
+   [0 0 0 0 0 0 0 0 0 1 0 1])
+  ("eventname" .
+   [3 0 0 0 0 0 0 1 0])
+  ("event_caller" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("receiver" .
+   [5 0 0 0 2 1 0 6])
+  ("register_to_event" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Core" .
+   [15 0 0 0])
+  ("core" .
+   [1 0 0 1])
+  ("actions" .
+   [7 0 1 0 0 1 2])
+  ("addMenu" .
+   [3 0 0 0 0 0 1])
+  ("widget" .
+   [0 0 0 1 0 0])
+  ("MainWin" .
+   [2 0 0 0 0 0 0])
+  ("WMainWin" .
+   [1 1 1 0 0 0 0 0])
+  ("get_default_buffer" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("load_buffer" .
+   [0 0 0 0 0 1 0 0 1 0 0])
+  ("s" .
+   [1])
+  ("pWidget" .
+   [0 1 1 1 0 0 0])
+  ("ValueError" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("global_shortctus" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("AttributeError" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("other" .
+   [4 0 0 0 0])
+  ("__eq__" .
+   [2 0 0 0 0 0])
+  ("KeySequence" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("captured" .
+   [0 0 0 0 0 0 0 1])
+  ("lastIndex" .
+   [2 1 0 0 0 2 0 1 2])
+  ("index" .
+   [18 0 0 2 0])
+  ("matchIndex" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("STYLES" .
+   [2 0 0 0 0 1])
+  ("capturedLength" .
+   [0 0 0 0 0 0 0 0 0 3 1 1 0 0])
+  ("setFormat" .
+   [0 0 0 0 0 0 0 1 3])
+  ("capturedStart" .
+   [0 0 0 0 1 2 0 0 0 0 1 0 4])
+  ("opened" .
+   [7 0 0 0 0 1])
+  ("text" .
+   [2 0 0 0])
+  ("match" .
+   [12 0 1 0 1])
+  ("multiline_born" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("previousBlockState" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setCurrentBlockState" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5])
+  ("STATE_MULTILINE_STARTED" .
+   [1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("STATE_DEFAULT" .
+   [0 0 0 0 0 1 0 0 0 1 0 0 1])
+  ("MULTILINE_STARTED" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("PythonHighlighter" .
+   [1 0 0 5 1 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("str" .
+   [0 0 1])
+  ("startIndex" .
+   [3 0 0 0 2 0 1 0 0 9])
+  ("color" .
+   [0 0 0 0 1])
+  ("commentLength" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("COMMENT" .
+   [0 0 0 0 0 1 1])
+  ("commentOpened" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("requests" .
+   [2 0 0 0 0 0 0 0])
+  ("PyQt5" .
+   [6 1 0 1 1])
+  ("setText" .
+   [0 0 0 0 0 0 1])
+  ("QLabel" .
+   [1 0 1 0 0 1])
+  ("setWindowTitle" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("setGeometry" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("exec_" .
+   [1 0 0 0 0])
+  ("QBufferWidget" .
+   [0 0 3 0 0 0 0 0 0 0 0 0 1])
+  ("argv" .
+   [2 0 0 1])
+  ("QApplication" .
+   [0 0 2 1 0 0 0 0 0 0 0 0])
+  ("show" .
+   [1 0 0 0])
+  ("setLayout" .
+   [1 0 0 0 0 0 0 0 1])
+  ("textentry" .
+   [1 0 0 0 0 0 0 0 0])
+  ("addWidget" .
+   [2 0 0 0 1 0 0 0 0])
+  ("setSpacing" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("grid" .
+   [5 0 0 0])
+  ("QGridLayout" .
+   [0 0 0 1 0 1 0 0 0 0 1])
+  ("QPlainTextEdit" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0 1])
+  ("statusBar" .
+   [2 0 0 0 0 0 0 0 0])
+  ("statusbar" .
+   [3 0 0 0 0 0 1 0 3])
+  ("QWidget" .
+   [1 0 0 0 0 0 0])
+  ("MBuffer" .
+   [1 0 5 0 0 0 2])
+  ("QMainWindow" .
+   [0 0 3 0 0 0 0 0 0 0 0])
+  ("joke" .
+   [1 0 0 0])
+  ("QtWidgets" .
+   [1 0 0 1 1 0 0 0 1])
+  ("FileBuffer" .
+   [1 1 0 1 1 0 0 0 0 0])
+  ("getFileBufferWidget" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("filebuffer" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("qdocument" .
+   [0 0 1 0 0 0 0 0 0])
+  ("new" .
+   [1 0 0])
+  ("import" .
+   [0 0 1 0 0 1])
+  ("Qsci" .
+   [3 0 0 0])
+  ("QsciLexerPython" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("font" .
+   [6 0 0 0])
+  ("cr" .
+   [1 0])
+  ("QFont" .
+   [1 0 0 0 0])
+  ("setFixedPitch" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("setFont" .
+   [0 0 0 0 0 0 1])
+  ("gui" .
+   [1 0 0])
+  ("QFontMetrics" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setMarginsForegroundColor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setMarginsFont" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("setMarginWidth" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("fontmetrics" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("width" .
+   [0 0 0 0 1])
+  ("setMarginsBackgroundColor" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setMarginBackgroundColor" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("connect" .
+   [1 0 0 1 0 0 0])
+  ("SimplePythonEditor" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("QsciScintilla" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("getmro" .
+   [1 0 0 0 0 0])
+  ("x" .
+   [11])
+  ("marginClicked" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("parent" .
+   [2 0 0 0 0 0])
+  ("__init__" .
+   [1 0 0 0 0 0 0 0])
+  ("setLexer" .
+   [2 0 0 0 0 0 0 0])
+  ("self" .
+   [1 0 0 0])
+  ("encoding" .
+   [1 0 0 0 0 0 0 0])
+  ("setUtf8" .
+   [0 0 0 0 1 0 0])
+  ("CustomScintilla" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("globalsetup" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("wrapsetup" .
+   [1 0 0 0 0 0 0 0 0])
+  ("setup" .
+   [1 0 0 0 0])
+  ("setup_all" .
+   [1 0 0 0 0 0 0 0 0])
+  ("EolUnix" .
+   [0 0 0 1 0 0 0])
+  ("setMarginSensitivity" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("key" .
+   [23 0 0])
+  ("modifier" .
+   [2 0 1 1 2 6 0 7])
+  ("static" .
+   [0 0 0 0 0 1])
+  ("event" .
+   [8 1 0 0 1])
+  ("modifie" .
+   [0 0 0 0 0 0 1])
+  ("modifiers" .
+   [0 0 0 0 0 0 0 0 1])
+  ("modCode" .
+   [1 0 0 0 1 0 2])
+  ("Qt" .
+   [5 0])
+  ("c" .
+   [3])
+  ("QtCore" .
+   [0 0 0 0 0 1])
+  ("KeyboardModifier" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("KeyboardModifiers" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("QtKeyboardModifers" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ControlModifier" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("append" .
+   [6 0 0 0 0 0])
+  ("AltModifier" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("KeyIdentifier" .
+   [1 1 0 0 0 1 0 0 0 0 0 0 3])
+  ("ShortcutHandler" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 1])
+  ("fromQtEvent" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("Key" .
+   [2 0 0])
+  ("CONTROL" .
+   [0 0 0 0 1 0 0])
+  ("KeyError" .
+   [0 0 1 1 0 0 0 0])
+  ("Alt" .
+   [1 0 0])
+  ("META" .
+   [1 0 0 0])
+  ("values" .
+   [4 0 0 0 0 0])
+  ("sequence" .
+   [0 0 0 2 1 0 0 2])
+  ("TypeError" .
+   [0 0 0 1 0 0 0 0 0])
+  ("if" .
+   [2 0])
+  ("actual_sequence" .
+   [0 0 0 0 1 0 0 0 0 0 0 1 0 0 0])
+  ("__repr__" .
+   [2 0 0 0 0 0 0 0])
+  ("tested" .
+   [2 0 0 0 0 0])
+  ("ks" .
+   [2 0])
+  ("db" .
+   [2 0])
+  ("def" .
+   [0 1 0])
+  ("load" .
+   [1 0 0 0])
+  ("isFile" .
+   [0 0 0 0 0 1])
+  ("rootWidget" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("keyPressEvent" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("shortcutHandler" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("isinstance" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("kwargs" .
+   [1 0 0 0 0 0])
+  ("register_receiver_for" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("shortcut" .
+   [1 0 0 0 0 0 0 0])
+  ("handler" .
+   [1 0 0 0 0 0 0])
+  ("end" .
+   [1 0 0])
+  ("modified" .
+   [1 0 0 0 0 0 0 0])
+  ("staticmethod" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("getattr" .
+   [0 0 0 0 1 0 0])
+  ("dbg" .
+   [1 0 0])
+  ("debugcall" .
+   [0 0 0 0 0 0 1 0 0])))
