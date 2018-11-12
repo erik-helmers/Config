@@ -57,4 +57,8 @@ exec "$SHELL"
 
 # Installer hyper
 https://github.com/zeit/hyper/releases
+
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /opt/Hyper/hyper 50
+sudo update-alternatives --config x-terminal-emulator
+
 # Installer pyzo (bonne chance! :)
