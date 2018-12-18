@@ -45,6 +45,8 @@ xz-utils tk-dev
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 exec "$SHELL"
 
+# L'UTILSIATION DE .ZSH_ENV EST NECESSAIRE POUR PYENV
+
 # Installer hyper
 https://github.com/zeit/hyper/releases
 
