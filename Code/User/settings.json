@@ -1,0 +1,9 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0,
+    "editor.fontLigatures": null,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "python.defaultInterpreterPath": "/home/erik-helmers/.pyenv/shims/python",
+    "workbench.colorTheme": "Default Light+"
+}

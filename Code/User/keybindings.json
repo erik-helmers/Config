@@ -1,0 +1,549 @@
+[
+
+    //Misc
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+
+    // Ctrl + x
+
+    {
+        "key": "ctrl+x ctrl+x",
+        "command": "editor.action.clipboardCutAction"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "-editor.action.clipboardCutAction"
+    },
+    {
+        "key": "ctrl+x ctrl+x",
+        "command": "notebook.cell.cut",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "-notebook.cell.cut",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+x ctrl+x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "-filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    
+    
+    //Down : ctrl+nf
+    
+    {
+        "key": "ctrl+n",
+        "command": "breadcrumbs.selectFocused",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "history.showNext",
+        "when": "historyNavigationEnabled && historyNavigationWidget"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "keybindings.editor.focusKeybindings",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "notifications.focusNextToast",
+        "when": "notificationFocus && notificationToastsVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "settings.action.focusSettingsFile",
+        "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "settings.action.focusSettingsFromSearch",
+        "when": "inSettingsSearch && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "showNextParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.interactivePlayground.arrowDown",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.statusBar.focusNext",
+        "when": "statusBarFocused"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "notebook.focusNextEditor",
+        "when": "editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'none' && notebookEditorCursorAtBoundary != 'top'"
+    },
+
+    // This is non default: must be used for ctrl+shift+p  panel
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    
+    // Up : ctrl+p
+
+    {
+        "key": "ctrl+p",
+        "command": "notebook.focusPreviousEditor",
+        "when": "editorTextFocus && inputFocus && notebookEditorFocused && notebookEditorCursorAtBoundary != 'bottom' && notebookEditorCursorAtBoundary != 'none'"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "history.showPrevious",
+        "when": "historyNavigationEnabled && historyNavigationWidget"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "notifications.focusPreviousToast",
+        "when": "notificationFocus && notificationToastsVisible"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "showPrevParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.interactivePlayground.arrowUp",
+        "when": "interactivePlaygroundFocus && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.statusBar.focusPrevious",
+        "when": "statusBarFocused"
+    },
+
+    // This is non default: must be used for ctrl+shift+p  panel
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
+
+    // Moved
+    
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    
+
+    // Left : ctrl+b 
+    {
+        "key": "ctrl+b",
+        "command": "notebook.fold",
+        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "breadcrumbs.focusPrevious",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "list.collapse",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "notification.collapse",
+        "when": "notificationFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "previousCompressedFolder",
+        "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.statusBar.focusPrevious",
+        "when": "statusBarFocused"
+    },
+
+    // Moved
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+
+    // Misc
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+r ctrl+b",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    },
+
+    // Right 
+    {
+        "key": "ctrl+f",
+        "command": "notebook.unfold",
+        "when": "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "breadcrumbs.focusNext",
+        "when": "breadcrumbsActive && breadcrumbsVisible"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "list.expand",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "nextCompressedFolder",
+        "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedLastFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "notification.expand",
+        "when": "notificationFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.statusBar.focusNext",
+        "when": "statusBarFocused"
+    },
+
+    // Search: ctrl+s
+
+    {
+        "key": "ctrl+x ctrl+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "repl.action.filter",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-repl.action.filter",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused || terminalFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused || terminalFocus"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "editor.action.webvieweditor.showFind",
+        "when": "!editorFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-editor.action.webvieweditor.showFind",
+        "when": "!editorFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "notebook.find",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-notebook.find",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-settings.action.search",
+        "when": "inSettingsEditor"
+    },
+
+    // New file 
+    {
+        "key": "ctrl+x ctrl+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+g l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g ctrl+l",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+k ctrl+q",
+        "command": "-workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "ctrl+g ctrl+f",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "ctrl+g ctrl+t",
+        "command": "workbench.panel.terminal.focus"
+    },
+    {
+        "key": "ctrl+x ctrl+r",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+g ctrl+b",
+        "command": "breadcrumbs.focusAndSelect",
+        "when": "breadcrumbsPossible"
+    },
+    {
+        "key": "ctrl+shift+[IntlBackslash]",
+        "command": "-breadcrumbs.focusAndSelect",
+        "when": "breadcrumbsPossible"
+    },
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.webvieweditor.selectAll",
+        "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-editor.action.webvieweditor.selectAll",
+        "when": "!editorFocus && !inputFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "list.selectAll",
+        "when": "listFocus && listSupportsMultiselect && !inputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-list.selectAll",
+        "when": "listFocus && listSupportsMultiselect && !inputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+g ctrl+p",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+g ctrl+d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+r ctrl+s",
+        "command": "workbench.action.debug.run"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "-workbench.action.debug.run"
+    },
+    {
+        "key": "ctrl+g ctrl+s",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+x ctrl+shift+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+g ctrl+i",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+[Comma]",
+        "command": "-editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    
+
+
+
+    
+
+
+
+]

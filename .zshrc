@@ -7,6 +7,7 @@ export ZSH=/home/erik-helmers/.oh-my-zsh
 plugins=(colored-man-pages colorize compleat git github
 history history-substring-search screen node npm z)
 
+fpath+=~/.zfunc
 
 REPORTTIME=10
 
@@ -20,7 +21,7 @@ compinit
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion::complete:*' use-cache 1
 
-PATH=$HOME/.local/taskgrader/path:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:$PATH
+PATH=$HOME/.local/taskgrader/path:$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:$PATH
 
 ZSH_THEME=robbyrussell
 
@@ -108,8 +109,6 @@ ENABLE_CORRECTION="true"
 . /home/erik-helmers/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
 # See .ZSHENV for Pyenv config
+if command -v pyenv 1>/dev/null 2>&1; then 
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-# Include Z!
-. ~/z.sh
+fi
