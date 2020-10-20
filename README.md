@@ -12,3 +12,5 @@ ssh-keygen -t rsa -b 4096 -C "erik.helmers@outlook.fr" \
 Paste in https://github.com/settings/keys,
 then `cd Documents && git clone git@github.com:erik-helmers/Config.git`
 
+Pour Archlinux :
+`git clone https://github.com/erik-helmers/Config.git ~/Documents/Config && sh ./Documents/Config/manjaro.sh`
