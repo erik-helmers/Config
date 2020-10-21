@@ -15,10 +15,12 @@ main(){
 
     prompt_yes_no "Misc from AUR (requires pamac) ? (${misc_aur[@]})" && pamac install ${misc_aur[@]}
 
-    for lang in "${languages[@]}"
+    for pack in "${languages_pack[@]}"
     do 
-        prompt_yes_no "Install $lang ?" && sudo pacman -S --noconfirm $lang
-    done
+        # Just evals to the list of programs to install
+        install_list=$(eval echo \${"$pack"[@]})    
+        prompt_yes_no "Install $pack ($install_list) ? " && sudo pacman -S --noconfirm $install_list
+    done    
 
     prompt_yes_no "Install Rust ?" && install_rust
     prompt_yes_no "Install pyenv  ?" && install_pyenv

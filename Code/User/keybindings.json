@@ -426,10 +426,6 @@
         "command": "workbench.files.action.focusFilesExplorer"
     },
     {
-        "key": "ctrl+g ctrl+t",
-        "command": "workbench.panel.terminal.focus"
-    },
-    {
         "key": "ctrl+x ctrl+r",
         "command": "workbench.action.openRecent"
     },
@@ -538,12 +534,10 @@
         "command": "-editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
     },
-    
-
-
-
-    
-
+    {
+        "key": "ctrl+g ctrl+t",
+        "command": "terminal.focus"
+    },
 
 
 ]

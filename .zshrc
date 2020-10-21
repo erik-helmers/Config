@@ -7,6 +7,7 @@ export ZSH=/home/erik-helmers/.oh-my-zsh
 plugins=(colored-man-pages colorize compleat git github
 history history-substring-search screen node npm z)
 
+
 fpath+=~/.zfunc
 
 REPORTTIME=10
