@@ -10,7 +10,6 @@ alias lll='ls -alh'
 alias la='ls -ldh .*'
 alias lt='ls -lth'
 
-alias rm='rm -i'
 alias tra='trash-put'
 alias ocaml='rlwrap -pMagenta ocaml'
 
@@ -22,3 +21,6 @@ export LESS="-RFX"
 alias ec='emacsclient -q'
 alias ecn='emacsclient -n -q'
 alias ecc='emacsclient -c -n -q'
+
+alias please='sudo'
+alias stani='echo "tu pue"'
